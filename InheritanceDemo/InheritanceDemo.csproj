@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Camry.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="CellPhone.cs" />
+    <Compile Include="Corolla.cs" />
+    <Compile Include="HotSpot.cs" />
+    <Compile Include="LandLine.cs" />
+    <Compile Include="Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmartPhone.cs" />
+    <Compile Include="Tundra.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
