@@ -2,7 +2,7 @@
 
 namespace MiniProjectInheritance
 {
-    public class  : InventoryItemModel, IPurchasable, IRentalable
+    public class VehicleModel : InventoryItemModel, IPurchasable, IRentalable
     {
         public decimal DealerFee { get; set; }
 
