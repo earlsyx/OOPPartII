@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWInterface", "HWInterface\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProjectInheritance", "MiniProjectInheritance\MiniProjectInheritance.csproj", "{F54C5541-950B-466F-8019-DBE0CF88536F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierDemo", "AccessModifierDemo\AccessModifierDemo.csproj", "{C1A8B878-F92B-48E4-A782-B2FD6EB6F0FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{814A17C2-8C3E-4B44-9849-9488204761EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{F54C5541-950B-466F-8019-DBE0CF88536F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F54C5541-950B-466F-8019-DBE0CF88536F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F54C5541-950B-466F-8019-DBE0CF88536F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A8B878-F92B-48E4-A782-B2FD6EB6F0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A8B878-F92B-48E4-A782-B2FD6EB6F0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A8B878-F92B-48E4-A782-B2FD6EB6F0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A8B878-F92B-48E4-A782-B2FD6EB6F0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814A17C2-8C3E-4B44-9849-9488204761EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814A17C2-8C3E-4B44-9849-9488204761EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814A17C2-8C3E-4B44-9849-9488204761EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814A17C2-8C3E-4B44-9849-9488204761EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
