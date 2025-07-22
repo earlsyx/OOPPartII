@@ -13,7 +13,7 @@ namespace InterfaceDemo
     // Real life- powercords,chaos, how it plugs in.
     // designers: plan , standadize, interface for house power.
     // standard throughout the country. particular shapes and nubmer of pongs.
-    
+
     internal class Program
     {
         static void Main(string[] args)
@@ -85,89 +85,5 @@ namespace InterfaceDemo
              
             Console.ReadLine();
         }
-    }
-
-    //combining contracts the IComputerController also have IDispoable
-    public interface IComputerController : IDisposable // contract/ standars I
-    {
-        //not actual implementation. 
-        // controact, a thing a class will implements
-        // definitions only. everyting public, therefore we don't include the word public because it is implied.
-        void Connect(); // no public, no curly braces. we only just need the signature line.
-        // sginature line - defines the return type, defines the name, defines any parameter you have. 
-        void CurrentKeyPressed(); // commonality
-
-
-    }
-
-    public class Keyboard : IComputerController //hence captial I so we know wright a way it's an interface.
-        // can inherit from a class, and implement one or more interfaces.
-    {
-        public void Connect()
-        {
-
-        }
-
-        //Events- we fire of an event when a keyboard is pressed
-        // caller keeps asking.
-
-        public void CurrentKeyPressed()
-        {
-
-        }
-
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-
-        public string ConnectionType { get; set; }
-
-
-    }
-
-    public interface IBatteryPowered
-    {
-         int BatteryLevel { get; set; }
-    }
-    public class BatteryPoweredKeyboard : Keyboard, IBatteryPowered
-    {
-        public int BatteryLevel { get; set; }
-
-    }
-    public class GameController : IComputerController, IDisposable
-    {
-
-
-        //repetition, not inhertance, not is a relation ship,
-        // /both peripherals? problem is current key preseed is not.
-        // not aeverything a pheripiral had currentkeypressed.
-        // even if similar, not a same thing.
-        public void Connect()
-        {
-            
-        }
-
-        public void CurrentKeyPressed()
-        {
-
-        }
-
-        public void Dispose()
-        {
-            //Do whatever shutdown tasks needed.
-            // called whenever we shutdown this class or get rid of this class
-        }
-
-    }
-
-    //What SOLID talks about 
-    // idea how to acrhitecture an application in such away that it's a bunch of modular pieces that can get pulled a part and replace one at a time. Instead of redoing entire application to fix one piece.
-    // interfacs clitral . important
-
-    public class BatteryPoweredGameController : GameController, IBatteryPowered //inherits first the implementation
-    {
-        public int BatteryLevel { get; set; }
-
     }
 }
