@@ -43,7 +43,7 @@ namespace AbstractClassDemo
 
     //craete classes that you inherit from it without opening yourself up using the vehicle as a class onto itself. asbract can;t sutantate you have to inherit ti to use the proeprties and methods inside the absracr class.
     //interface different berween avsract classes
-    // diference is hat for interface, you have to implement the properties or methods in the contract for class that implements it, but for abstract class, you don't have too, if that abstract class is being implemented / used by a child class. 
+    // diference is hat for interface, you have to implement the properties or methods in the contract for class that implements it, but for abstract class, you don't have too, if that abstract class is being implemented / used by a child class. s
     // Methods
     // Abstract same as inherit class, cannot just instinatiate
      public class Car : Vehicle//concrete
