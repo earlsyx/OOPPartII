@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "Inherita
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWInheritance", "HWInheritance\HWInheritance.csproj", "{0AD1D997-DB98-4717-8E6E-05D7ACA1BB31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{5C0B76F6-CA03-4805-9F73-9D582B0F3B65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0AD1D997-DB98-4717-8E6E-05D7ACA1BB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD1D997-DB98-4717-8E6E-05D7ACA1BB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD1D997-DB98-4717-8E6E-05D7ACA1BB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0B76F6-CA03-4805-9F73-9D582B0F3B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0B76F6-CA03-4805-9F73-9D582B0F3B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0B76F6-CA03-4805-9F73-9D582B0F3B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0B76F6-CA03-4805-9F73-9D582B0F3B65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
