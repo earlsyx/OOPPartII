@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierDemo", "Acces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{814A17C2-8C3E-4B44-9849-9488204761EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassDemo", "AbstractClassDemo\AbstractClassDemo.csproj", "{71F0964B-8558-4BBD-9976-3F075BB4F8F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{814A17C2-8C3E-4B44-9849-9488204761EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{814A17C2-8C3E-4B44-9849-9488204761EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{814A17C2-8C3E-4B44-9849-9488204761EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F0964B-8558-4BBD-9976-3F075BB4F8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F0964B-8558-4BBD-9976-3F075BB4F8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F0964B-8558-4BBD-9976-3F075BB4F8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F0964B-8558-4BBD-9976-3F075BB4F8F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
